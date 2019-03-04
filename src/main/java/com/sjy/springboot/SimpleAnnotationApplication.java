@@ -15,9 +15,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SimpleAnnotationApplication  {
 
-//    public static void main(String[] args) {
-//        SpringApplication.run(SimpleAnnotationApplication.class, args);
-//    }
+    public static void main(String[] args) {
+        SpringApplication.run(SimpleAnnotationApplication.class, args);
+    }
 //    final private CityMapper cityMapper;
 //    public SimpleAnnotationApplication(CityMapper cityMapper) {
 //        this.cityMapper = cityMapper;
@@ -25,5 +25,6 @@ public class SimpleAnnotationApplication  {
 //    @Override
 //    public void run(String... args) throws Exception {
 //        System.out.println(this.cityMapper.findByState("CA"));
+//    }
 //    }
 }

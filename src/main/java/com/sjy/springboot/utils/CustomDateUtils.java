@@ -7,7 +7,6 @@ import java.util.Date;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.alibaba.fastjson.JSON;
 
 /**
  * Created by zhaoyangyang on 2018/9/7
@@ -73,9 +72,7 @@ public class CustomDateUtils {
     }
 
 
-    public static void main(String[] args) {
-        System.out.println(JSON.toJSONString(CustomDateUtils.calculateQuarter(new Date())));
-        System.out.println(CustomDateUtils.format(new Date(),"yyyy-MM-dd HH"));
+    public static void main(String[] args) { System.out.println(CustomDateUtils.format(new Date(),"yyyy-MM-dd HH"));
         System.out.println(CustomDateUtils.parse("2018-09-14 17:23:22", "yyyy-MM-dd HH").getTime());
         System.out.println(CustomDateUtils.parse(CustomDateUtils.format(new Date(), "yyyyMMddHH"), "yyyyMMddHH").getTime());
     }

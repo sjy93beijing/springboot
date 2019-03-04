@@ -1,6 +1,8 @@
 package com.sjy.springboot.controller;
 
+import com.sjy.springboot.model.TestBean;
 import com.sjy.springboot.model.UserDomin;
+import com.sjy.springboot.service.TestService;
 import com.sjy.springboot.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,6 +18,8 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 @RequestMapping(value = "/user")
 public class UserController {
+//    @Autowired
+//    TestService testService;
     @Autowired
     private UserService userService;
 
@@ -41,4 +45,13 @@ public class UserController {
 
         return userService.findAllUser(pageNum,pageSize);
     }
+    @RequestMapping("/test")
+    public String getMap(){
+
+        return "成功";
+
+    }
+
+
+
 }

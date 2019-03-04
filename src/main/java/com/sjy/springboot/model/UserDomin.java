@@ -12,12 +12,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class UserDomin {
     private Integer userId;
-
     private String userName;
-
     private String password;
-
     private String phone;
+
 
     public Integer getUserId() {
         return userId;
@@ -49,5 +47,24 @@ public class UserDomin {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+    public UserDomin(Integer userId, String userName, String password, String phone) {
+        this.userId = userId;
+        this.userName = userName;
+        this.password = password;
+        this.phone = phone;
+    }
+
+    public UserDomin() {
+    }
+
+    @Override
+    public String toString() {
+        return "UserDomin{" +
+                "userId=" + userId +
+                ", userName='" + userName + '\'' +
+                ", password='" + password + '\'' +
+                ", phone='" + phone + '\'' +
+                '}';
     }
 }

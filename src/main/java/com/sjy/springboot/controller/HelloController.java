@@ -1,4 +1,4 @@
-package com.sjy.springboot;
+package com.sjy.springboot.controller;
 
 import com.sjy.springboot.model.GirlProperties;
 import com.sjy.springboot.model.UserDomin;

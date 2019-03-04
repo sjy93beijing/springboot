@@ -5,4 +5,14 @@ package com.sjy.springboot.utils;
  * @version 1.0
  */
 public class Test {
+    public static void main(String[] args) {
+        int i;
+        try{
+         i = 1/0;
+            System.out.println(i);
+        }catch(Exception e){
+            i =2;
+        }
+        System.out.println(i);
+    }
 }
