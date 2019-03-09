@@ -1,7 +1,9 @@
 package com.sjy.springboot.controller;
 
 import com.sjy.springboot.model.UserDomin;
-import com.sjy.springboot.service.UserService;
+import com.sjy.springboot.service.userService.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -16,9 +18,16 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 @RequestMapping(value = "/user")
 public class UserController {
+    final static Logger logger = LoggerFactory.getLogger(UserController.class);
+
     @Autowired
     private UserService userService;
 
+    @RequestMapping("/index")
+    public String index(){
+    logger.info("index");
+        return "user/index";
+    }
     @ResponseBody
     @PostMapping("/add")
     public int addUser(@RequestParam("userId") int userid,@RequestParam("userName") String userName,
@@ -34,11 +43,9 @@ public class UserController {
 
     @ResponseBody
     @GetMapping("/all")
-    public Object findAllUser(
-            @RequestParam(name="pageNum",required = false,defaultValue = "1")int pageNum,
-            @RequestParam(name = "pageSize",required = false,defaultValue = "10") int pageSize)
-    {
+    public Object findAllUser()
+             {
 
-        return userService.findAllUser(pageNum,pageSize);
+        return userService.findUsers();
     }
 }

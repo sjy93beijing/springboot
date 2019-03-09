@@ -1,7 +1,9 @@
-package com.sjy.springboot;
+package com.sjy.springboot.controller;
 
 import com.sjy.springboot.model.GirlProperties;
 import com.sjy.springboot.model.UserDomin;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,8 +17,10 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/hello")
 public class HelloController {
+    final static Logger logger = LoggerFactory.getLogger(HelloController.class);
 
-//    @Value("${age}")
+
+    //    @Value("${age}")
 //    private Integer age;
 //    @Value("${content}")
 //    private String content;
@@ -36,7 +40,7 @@ public class HelloController {
     }
     @GetMapping(value = "/bye")
     public String byby(){
-
+    logger.info("巴巴爸爸");
         return "拜拜：";
     }
 }

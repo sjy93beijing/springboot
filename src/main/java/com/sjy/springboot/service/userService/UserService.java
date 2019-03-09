@@ -1,7 +1,9 @@
-package com.sjy.springboot.service;
+package com.sjy.springboot.service.userService;
 
 import com.github.pagehelper.PageInfo;
 import com.sjy.springboot.model.UserDomin;
+
+import java.util.List;
 
 /**
  * @author sjy
@@ -14,4 +16,6 @@ public interface UserService {
     int addUser(UserDomin user);
 
     PageInfo<UserDomin> findAllUser(int pageNum, int pageSize);
+
+    List<UserDomin> findUsers();
 }

@@ -14,7 +14,5 @@ import java.util.List;
 public interface UserDao {
     int insert(UserDomin record);
 
-
-
     List<UserDomin> selectUsers();
 }
