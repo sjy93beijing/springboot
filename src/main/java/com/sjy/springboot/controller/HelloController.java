@@ -1,6 +1,5 @@
 package com.sjy.springboot.controller;
 
-import com.sjy.springboot.model.GirlProperties;
 import com.sjy.springboot.model.UserDomin;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,13 +18,12 @@ import org.springframework.web.bind.annotation.*;
 public class HelloController {
     final static Logger logger = LoggerFactory.getLogger(HelloController.class);
 
+    private static final String INDEX="index";
 
     //    @Value("${age}")
 //    private Integer age;
 //    @Value("${content}")
 //    private String content;
-    @Autowired
-    private GirlProperties girlProperties;
     @Autowired
     private UserDomin userDomin;
     @RequestMapping(value = "/say",method = RequestMethod.GET)
@@ -43,4 +41,9 @@ public class HelloController {
     logger.info("巴巴爸爸");
         return "拜拜：";
     }
+    @RequestMapping("/index")
+    public String  getIndex(){
+        return INDEX;
+    }
+
 }

@@ -16,18 +16,25 @@ import org.springframework.web.bind.annotation.*;
  * @date 2018/10/11-17:05
  */
 @Controller
-@RequestMapping(value = "/user")
+@RequestMapping("/user")
 public class UserController {
     final static Logger logger = LoggerFactory.getLogger(UserController.class);
 
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/index")
-    public String index(){
-    logger.info("index");
-        return "user/index";
+
+    @GetMapping("/")
+    public String home(){
+        return "views/welcome";
     }
+
+    @GetMapping("/register")
+    public String userHome(){
+        return "views/user/userhome";
+    }
+
+
     @ResponseBody
     @PostMapping("/add")
     public int addUser(@RequestParam("userId") int userid,@RequestParam("userName") String userName,
@@ -44,8 +51,9 @@ public class UserController {
     @ResponseBody
     @GetMapping("/all")
     public Object findAllUser()
-             {
+    {
 
         return userService.findUsers();
     }
+
 }

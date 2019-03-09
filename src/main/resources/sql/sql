@@ -3,3 +3,16 @@ drop table if exists city;
 create table city (id int primary key auto_increment, name varchar, state varchar, country varchar);
 
 insert into city (name, state, country) values ('San Francisco', 'CA', 'US');
+
+drop table  user;
+
+CREATE TABLE `user` (
+  `userid` int(11) DEFAULT '1',
+  `userName` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `password` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `phone` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci
+
+
+insert into user values (1,'盛俊阳','1235','12121');
+insert into user values (2,'盛俊阳','1234','13021098077');
