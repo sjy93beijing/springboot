@@ -3523,3 +3523,127 @@ INFO:{dataSource-1} closed
 INFO:{dataSource-1} inited
 2019-03-11 21:48:25 PM [Thread: Thread-19][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
 INFO:{dataSource-1} closed
+2019-03-11 22:16:09 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 22:47:56 PM [Thread: Thread-16][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
+2019-03-11 22:47:57 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-2} inited
+2019-03-11 22:48:29 PM [Thread: Thread-24][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-2} closed
+2019-03-11 22:48:30 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-3} inited
+2019-03-11 22:51:00 PM [Thread: Thread-32][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-3} closed
+2019-03-11 22:51:01 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-4} inited
+2019-03-11 22:52:35 PM [Thread: Thread-47][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-4} closed
+2019-03-11 22:52:40 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 23:05:44 PM [Thread: Thread-20][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
+2019-03-11 23:05:50 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 23:07:52 PM [Thread: Thread-18][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
+2019-03-11 23:07:53 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-2} inited
+2019-03-11 23:09:59 PM [Thread: Thread-26][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-2} closed
+2019-03-11 23:10:00 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-3} inited
+2019-03-11 23:11:13 PM [Thread: Thread-34][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-3} closed
+2019-03-11 23:11:14 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-4} inited
+2019-03-11 23:17:07 PM [Thread: Thread-42][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-4} closed
+2019-03-11 23:17:07 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-5} inited
+2019-03-11 23:18:16 PM [Thread: Thread-50][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-5} closed
+2019-03-11 23:18:16 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-6} inited
+2019-03-11 23:18:21 PM [Thread: Thread-65][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-6} closed
+2019-03-11 23:18:28 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 23:19:48 PM [Thread: Thread-18][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
+2019-03-11 23:19:49 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-2} inited
+2019-03-11 23:22:26 PM [Thread: Thread-26][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-2} closed
+2019-03-11 23:22:27 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-3} inited
+2019-03-11 23:27:19 PM [Thread: Thread-40][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-3} closed
+2019-03-11 23:27:24 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 23:29:56 PM [Thread: Thread-15][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
+2019-03-11 23:29:57 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-2} inited
+2019-03-11 23:30:04 PM [Thread: Thread-29][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-2} closed
+2019-03-11 23:30:09 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 23:33:24 PM [Thread: Thread-18][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
+2019-03-11 23:33:29 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 23:34:24 PM [Thread: Thread-18][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
+2019-03-11 23:34:29 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 23:37:26 PM [Thread: Thread-18][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
+2019-03-11 23:37:31 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 23:38:11 PM [Thread: Thread-18][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
+2019-03-11 23:38:17 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 23:39:14 PM [Thread: Thread-15][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
+2019-03-11 23:39:15 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-2} inited
+2019-03-11 23:42:19 PM [Thread: Thread-30][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-2} closed
+2019-03-11 23:42:25 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 23:43:38 PM [Thread: Thread-19][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
+2019-03-11 23:43:45 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 23:44:27 PM [Thread: Thread-20][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
+2019-03-11 23:44:33 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 23:45:36 PM [Thread: Thread-16][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
+2019-03-11 23:45:36 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-2} inited
+2019-03-11 23:46:19 PM [Thread: Thread-25][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-2} closed
+2019-03-11 23:46:20 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-3} inited
+2019-03-11 23:47:09 PM [Thread: Thread-33][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-3} closed
+2019-03-11 23:47:10 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-4} inited
+2019-03-11 23:48:15 PM [Thread: Thread-41][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-4} closed
+2019-03-11 23:48:16 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-5} inited
+2019-03-11 23:49:16 PM [Thread: Thread-56][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-5} closed
+2019-03-11 23:49:24 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 23:49:56 PM [Thread: Thread-22][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
+2019-03-11 23:50:39 PM [Thread: restartedMain][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:847) ]
+INFO:{dataSource-1} inited
+2019-03-11 23:51:07 PM [Thread: Thread-20][ Class:com.alibaba.druid.pool.DruidDataSource >> Method: com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1608) ]
+INFO:{dataSource-1} closed
