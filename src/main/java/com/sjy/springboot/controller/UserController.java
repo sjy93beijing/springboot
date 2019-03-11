@@ -26,6 +26,7 @@ public class UserController {
 
     @GetMapping("/")
     public String home(){
+        logger.info("进入主页面welcome");
         return "views/welcome";
     }
 
